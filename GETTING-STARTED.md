@@ -4,15 +4,16 @@ This is the ChatGPT version of the second brain. No coding. If you can create a 
 
 Set aside about 30 minutes. By the end you'll have a ChatGPT Project that knows who you are, what you're working on, and how you write, and that gets sharper every time you use it.
 
-Five steps:
+Six steps (the sixth is optional):
 
 1. Download this template
 2. Fill in your details
 3. Create a ChatGPT Project
 4. Paste the instructions and upload your files
 5. Use it
+6. (Optional) Set up your first Skill
 
-You need a ChatGPT **Plus, Team, Business, or Enterprise** plan. Projects aren't available on the free plan.
+You need a ChatGPT **Plus, Team, Business, or Enterprise** plan. Projects aren't available on the free plan. Step 6 needs **Business, Enterprise, Healthcare, or Edu** specifically — if you're on Plus or Pro, skip it, it won't be there.
 
 ---
 
@@ -86,12 +87,28 @@ It'll write out the file text for you to copy into the actual file and re-upload
 
 ---
 
+## Step 6 (optional): Set up your first Skill
+
+**Only on Business, Enterprise, Healthcare, or Edu plans.** If you're on Plus or Pro, this tab doesn't exist for you yet — skip to Stuck? below.
+
+Skills are ChatGPT's version of a saved, reusable workflow — the same idea as `.claude/skills/` in the Claude Code template, just built into the ChatGPT sidebar instead of a file in a folder.
+
+1. In ChatGPT, open **Plugins → Skills** in the sidebar.
+2. Click **Create a skill**.
+3. Open `skills/weekly-review.md` from this template and copy the whole thing in as your starting point (you can describe what you want in plain language instead, and let ChatGPT draft it, then paste this in to compare or refine).
+4. Save it, then try it: "run my weekly review."
+
+If you're on a Business or Enterprise workspace with a team, an admin can push a skill to everyone automatically once it's built, so nobody has to install it themselves. See `skills/README.md` for more on that and for how to write your own from scratch.
+
+---
+
 ## The honest limits, vs. the Claude Code version
 
-This gets you 80% of the value with none of the setup. What it can't do:
+This gets you most of the value with a fraction of the setup. What it still can't do:
 
 - **It won't edit its own files.** You copy and re-upload. Claude Code writes directly to disk.
-- **No skills or agents.** Repeatable workflows stay one-off prompts here, they can't be saved as a reusable recipe the way `.claude/skills/` works in Claude Code.
+- **No agents.** ChatGPT has no equivalent to routing a task to a specialist subagent — Skills cover reusable workflows, but not the orchestration layer.
+- **Skills are plan-gated.** Business, Enterprise, Healthcare, or Edu only. On Plus or Pro, repeatable workflows stay one-off prompts.
 - **Memory is separate and thinner.** ChatGPT's own Memory feature (Settings → Personalization) picks up bits it decides are worth remembering, but it's not the same as this folder and doesn't export or travel with it.
 
 If any of those start to matter, that's the point to move to Claude Code.

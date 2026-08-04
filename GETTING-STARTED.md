@@ -18,8 +18,13 @@ You need a ChatGPT **Plus, Team, Business, or Enterprise** plan. Projects aren't
 
 ## Step 1: Download this template
 
-1. Get the `chatgpt-second-brain` folder (from wherever it was shared with you, or download the zip from the portal resources page).
-2. Unzip it and move the folder somewhere you'll remember, like your Desktop.
+1. Go to **[github.com/alexsidhu1/chatgpt-second-brain](https://github.com/alexsidhu1/chatgpt-second-brain)**.
+2. Click the green **Code** button near the top.
+3. Click **Download ZIP**.
+4. Find the downloaded ZIP file (usually in your Downloads folder) and double-click it to unzip.
+5. You now have a folder called `chatgpt-second-brain`. Move it somewhere you'll remember, like your Desktop or Documents. You can rename it to anything you like.
+
+No GitHub account needed. You're just downloading a folder.
 
 ---
 

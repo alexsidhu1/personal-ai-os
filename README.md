@@ -34,6 +34,10 @@ chatgpt-second-brain/
 
 If you outgrow these limits (you want it editing its own files, running skills, or holding memory that isn't tied to one browser), that's the signal to move to Claude Code, not a reason to avoid starting here.
 
+## Get it
+
+Live at [github.com/alexsidhu1/chatgpt-second-brain](https://github.com/alexsidhu1/chatgpt-second-brain) — download the ZIP, no GitHub account needed.
+
 ## Source
 
 Adapted from [github.com/alexsidhu1/execassistant-template](https://github.com/alexsidhu1/execassistant-template) (Whitehorse AI).

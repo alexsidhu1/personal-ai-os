@@ -1,11 +1,11 @@
-# Second Brain for ChatGPT
+# Personal AI OS (ChatGPT version)
 
 A ChatGPT-compatible version of the [execassistant-template](https://github.com/alexsidhu1/execassistant-template). Same idea (a folder of files that turns ChatGPT into an assistant that knows you), rebuilt for how ChatGPT actually reads files, since it doesn't read `.claude/` or `CLAUDE.md` the way Claude Code does.
 
 ## What's here
 
 ```
-chatgpt-second-brain/
+personal-ai-os/
   GETTING-STARTED.md       <- step by step setup
   INSTRUCTIONS.md          <- paste this into ChatGPT's Project instructions
   context/
@@ -40,7 +40,7 @@ If you're on ChatGPT Plus or Pro, skip `skills/` — it won't do anything for yo
 
 ## Get it
 
-Live at [github.com/alexsidhu1/chatgpt-second-brain](https://github.com/alexsidhu1/chatgpt-second-brain) — download the ZIP, no GitHub account needed.
+Live at [github.com/alexsidhu1/personal-ai-os](https://github.com/alexsidhu1/personal-ai-os) — download the ZIP, no GitHub account needed.
 
 ## Source
 
